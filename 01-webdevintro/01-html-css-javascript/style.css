@@ -1,0 +1,8 @@
+h1 {
+    color: gray;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+p {
+    font-family: "Courier New", monospace;
+}

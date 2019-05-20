@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79926a70-494e-43ea-9d9c-652e68cef18d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/js/flappy-bird.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-webdevintro/04-object-oriented-programming/my-script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/06-puggo-engine-enemies/puggo-engine.js" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/07-hello-world-phaser/js/game.js" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/08-phaser-sprites-puggo/js/game.js" />
+        <option value="$PROJECT_DIR$/01-webdevintro/e03-simple-rpg/style.css" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/02-draw-this-car/style.css" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/01-basic-canvas/style.css" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/03-drawing-an-image-with-js/style.css" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/04-simple-game-engine/style.css" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/07-hello-world-phaser/index.html" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/08-phaser-sprites-puggo/index.html" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/09-phaser-puggo-game/index.html" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/09-phaser-puggo-game/js/game.js" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/index.html" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/js/game.js" />
+        <option value="$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/js/flappy-bird.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="01-webdevintro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="01-webdevintro" type="462c0819:PsiDirectoryNode" />
+              <item name="03-make-it-pretty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="01-webdevintro" type="462c0819:PsiDirectoryNode" />
+              <item name="04-object-oriented-programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="01-webdevintro" type="462c0819:PsiDirectoryNode" />
+              <item name="e01-drawing-triangles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="01-basic-canvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="02-draw-this-car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="03-drawing-an-image-with-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="04-simple-game-engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="07-hello-world-phaser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="08-phaser-sprites-puggo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="08-phaser-sprites-puggo" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="e01-flappy-bird" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="e01-flappy-bird" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="e01-flappy-bird" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="Phaserfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="Phaserfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="Phaserfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="07 - Groups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serious-game-classfiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serious-game-classfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="02-javascript-and-phaser" type="462c0819:PsiDirectoryNode" />
+              <item name="Phaserfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="CourseFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="07 - Groups" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-javascript-and-phaser" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/serious-game-classfiles/02-javascript-and-phaser/06-puggo-engine-enemies/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/serious-game-classfiles/02-javascript-and-phaser/02-draw-this-car/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/serious-game-classfiles/02-javascript-and-phaser/08-phaser-sprites-puggo/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/serious-game-classfiles/02-javascript-and-phaser/09-phaser-puggo-game/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/serious-game-classfiles/02-javascript-and-phaser/05-puggo-engine-extended/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79926a70-494e-43ea-9d9c-652e68cef18d" name="Default Changelist" comment="" />
+      <created>1557918121094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557918121094</updated>
+      <workItem from="1557918122182" duration="7619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7619000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/04-simple-game-engine/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/04-simple-game-engine/puggo-engine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/05-puggo-engine-extended/puggo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/05-puggo-engine-extended/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/06-puggo-engine-enemies/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/06-puggo-engine-enemies/puggo-engine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/07-hello-world-phaser/js/phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/07-hello-world-phaser/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e03-simple-rpg/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e03-simple-rpg/my-script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e03-simple-rpg/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e02-drawing-rectangles/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e02-drawing-rectangles/my-script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/e02-drawing-rectangles/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/04-object-oriented-programming/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/04-object-oriented-programming/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/03-make-it-pretty/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/02-draw-this-car/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/01-basic-canvas/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/02-draw-this-car/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/03-drawing-an-image-with-js/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/04-simple-game-engine/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/07-hello-world-phaser/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/08-phaser-sprites-puggo/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/08-phaser-sprites-puggo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/09-phaser-puggo-game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/09-phaser-puggo-game/js/phaser.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/09-phaser-puggo-game/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/js/phaser.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-webdevintro/04-object-oriented-programming/my-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-javascript-and-phaser/e01-flappy-bird/js/flappy-bird.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

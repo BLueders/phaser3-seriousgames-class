@@ -1,0 +1,20 @@
+h1 {
+    color: darkred;
+    background-color: lightpink;
+}
+h2 {
+    color: darkblue;
+    background-color: lightblue;
+}
+h3 {
+    color: darkgreen;
+    background-color: lightgreen;
+}
+.yellow{
+    color: darkorange;
+    background-color: lightyellow;
+}
+#purple{
+    color: rebeccapurple;
+    background-color: lightcyan;
+}
