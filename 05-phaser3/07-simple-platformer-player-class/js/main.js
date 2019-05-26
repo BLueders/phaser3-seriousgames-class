@@ -14,7 +14,6 @@ let config = {
     scene: gameScene
 };
 
-let cursors;
 let score = 0;
 let gameOver = false;
 
@@ -45,11 +44,10 @@ gameScene.create = function ()
     this.platforms.create(50, 250, 'ground');
     this.platforms.create(750, 220, 'ground');
 
-    // The player and its settings
-    this.player = this.add.existing(new Player(this,100, 450, 'dude'));
-
     //  Input Events
-    cursors = this.input.keyboard.createCursorKeys();
+    let cursors = this.input.keyboard.createCursorKeys();
+    // The player and its settings
+    this.player = new Player(this,100, 450, cursors);
 
     //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
     this.stars = [];

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c5e50f7-0724-4af8-89aa-1bb1efd9e41f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/00-phaser3-base-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/assets/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/assets/images/rubber_duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/bootscene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/homescene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/loadingscene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/06-simple-platformer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/assets/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/assets/dude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/assets/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/assets/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/assets/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/06-simple-platformer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/assets/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/assets/dude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/assets/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/assets/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/assets/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/js/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/00-phaser3-base-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/assets/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/assets/images/rubber_duck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/bootscene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/homescene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/loadingscene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/phaser.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prototype</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>background</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/bootscene.js" />
+        <option value="$PROJECT_DIR$/js/loadingscene.js" />
+        <option value="$PROJECT_DIR$/js/homescene.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../e01-breakout" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/03-arcade-physics-collision/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/04-arcade-physics-statics/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/05-arcade-physics-groups/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/05-arcade-physics-interaction/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/06-arcade-physics-rotation-circles/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (5)" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c5e50f7-0724-4af8-89aa-1bb1efd9e41f" name="Default Changelist" comment="" />
+      <created>1558808555525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558808555525</updated>
+      <workItem from="1558808556633" duration="5791000" />
+      <workItem from="1558863170998" duration="703000" />
+      <workItem from="1558865349111" duration="168000" />
+      <workItem from="1558865542451" duration="458000" />
+      <workItem from="1558866070091" duration="1315000" />
+      <workItem from="1558867414025" duration="28000" />
+      <workItem from="1558867452851" duration="286000" />
+      <workItem from="1558867767781" duration="1004000" />
+      <workItem from="1558868998889" duration="1770000" />
+      <workItem from="1558870928983" duration="1408000" />
+      <workItem from="1558891891733" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13167000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/images/apple.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/backyard.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/candy.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/logo.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/pet.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/rotate.png" />
+    <entry file="file://$PROJECT_DIR$/js/loadingscene.js" />
+    <entry file="file://$PROJECT_DIR$/js/homescene.js" />
+    <entry file="file://$PROJECT_DIR$/js/bootscene.js" />
+    <entry file="file://$PROJECT_DIR$/assets/images/rubber_duck.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/phaser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977424">
+          <caret line="40726" column="34" selection-start-line="40726" selection-start-column="25" selection-end-line="40726" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

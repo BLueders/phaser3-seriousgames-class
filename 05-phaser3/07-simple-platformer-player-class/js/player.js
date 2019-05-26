@@ -1,9 +1,10 @@
 class Player extends Phaser.Physics.Arcade.Sprite {
-    constructor (scene, x, y, texture, frame) {
-        super(scene, x, y, texture, frame);
-        scene.physics.world.enable(this);
+    constructor (scene, x, y, cursorInput) {
+        super(scene, x, y, 'dude');
+        scene.add.existing(this);
+        scene.physics.add.existing(this);
         this.setCollideWorldBounds(true);
-
+        this.cursorInput = cursorInput;
         //  Our player animations, turning, walking left and walking right.
         scene.anims.create({
             key: 'playerLeft',
@@ -27,12 +28,12 @@ class Player extends Phaser.Physics.Arcade.Sprite {
     }
 
     update(time, delta){
-        if (cursors.left.isDown)
+        if (this.cursorInput.left.isDown)
         {
             this.setVelocityX(-160);
             this.anims.play('playerLeft', true);
         }
-        else if (cursors.right.isDown)
+        else if (this.cursorInput.right.isDown)
         {
             this.setVelocityX(160);
             this.anims.play('playerRight', true);
@@ -43,7 +44,7 @@ class Player extends Phaser.Physics.Arcade.Sprite {
             this.anims.play('playerTurn');
         }
 
-        if (cursors.up.isDown && this.body.touching.down)
+        if (this.cursorInput.up.isDown && this.body.touching.down)
         {
             this.setVelocityY(-330);
         }
