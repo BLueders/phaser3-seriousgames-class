@@ -8,7 +8,7 @@ let config = {
         default: 'arcade',
         arcade: {
             gravity: { y: 300 },
-            debug: false
+            debug: true
         }
     },
     scene: [bootScene, loadingScene, homeScene, gameScene],
@@ -28,11 +28,7 @@ gameScene.create = function ()
     // The paddle
     this.paddle = new Paddle(this,100, config.height-100, cursors);
 
-    this.ball = this.add.existing(new Ball(this,config.width/2, config.height/2));
-    // this.ball = this.physics.add.sprite(config.width/2, config.height/2, 'ball');
-    // this.ball.setBounce(1,1);
-    // this.ball.setVelocity(200, 400);
-    // this.ball.setCollideWorldBounds(true);
+    this.ball = new Ball(this,config.width/2, config.height/2);
 
     this.blocks = [];
     makeBlocks(3, this.blocks);

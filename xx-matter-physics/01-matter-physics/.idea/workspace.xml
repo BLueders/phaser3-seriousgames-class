@@ -2,39 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c5e50f7-0724-4af8-89aa-1bb1efd9e41f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/06-simple-platformer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/.idea/00-phaser3-base-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/assets/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/assets/images/rubber_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/js/bootscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/js/homescene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/js/loadingscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/00-phaser3-base-project/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/01-arcade-physics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/01-arcade-physics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/01-arcade-physics/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/01-arcade-physics/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/03-arcade-physics-statics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/03-arcade-physics-statics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/03-arcade-physics-statics/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/03-arcade-physics-statics/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/04-arcade-physics-groups/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/04-arcade-physics-groups/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/04-arcade-physics-groups/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/04-arcade-physics-groups/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/05-arcade-physics-interaction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/05-arcade-physics-interaction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/05-arcade-physics-interaction/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/05-arcade-physics-interaction/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/06-simple-platformer/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/js/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/07-simple-platformer-player-class/js/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/.idea/00-phaser3-base-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/assets/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/assets/images/rubber_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/js/bootscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/js/homescene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/js/loadingscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-loading-scene/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/08-loading-scene/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/08-loading-scene/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/10-phaser3-complete-base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/10-phaser3-complete-base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../05-phaser3/e01-breakout/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="198">
               <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
             </state>
           </provider>
@@ -64,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="264">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -73,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/phaser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="977424">
+            <state relative-caret-position="1343958">
               <caret line="40726" column="34" selection-start-line="40726" selection-start-column="25" selection-end-line="40726" selection-end-column="34" />
             </state>
           </provider>
@@ -127,8 +110,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="01-arcade-physics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-arcade-physics" type="462c0819:PsiDirectoryNode" />
+              <item name="01-matter-physics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-matter-physics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,8 +120,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../05-phaser3/e01-breakout" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
@@ -155,11 +139,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/02-arcade-physics/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/01-arcade-physics/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/01-matter-physics/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/00-phaser3-base-project/index.html" useBuiltInWebServerPort="true">
@@ -167,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -189,17 +177,17 @@
       <workItem from="1558865542451" duration="525000" />
       <workItem from="1558867756471" duration="10000" />
       <workItem from="1558897714882" duration="796000" />
+      <workItem from="1558956393404" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7993000" />
+    <option name="totallyTimeSpent" value="8100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,22 +224,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="198">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/phaser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="977424">
+        <state relative-caret-position="1343958">
           <caret line="40726" column="34" selection-start-line="40726" selection-start-column="25" selection-end-line="40726" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="264">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

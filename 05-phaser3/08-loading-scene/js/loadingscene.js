@@ -5,7 +5,7 @@ let loadingScene = new Phaser.Scene('Loading');
 
 // load asset files for our game
 loadingScene.preload = function() {
-
+    console.log("executing preload() of Loading scene");
     // store width and height for easy access
     let gameWidth = this.sys.game.config.width;
     let gameHeight = this.sys.game.config.height;
@@ -46,12 +46,13 @@ loadingScene.preload = function() {
 
     // TO TEST: load lots of assets to have a chance to see loading screen
     // REMOVE
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 10; i++) {
         this.load.image('test' + i, 'assets/images/rubber_duck.png');
     }
 };
 
 loadingScene.create = function() {
+    console.log("executing create() of Loading scene");
     this.scene.start('Game');
 };
 

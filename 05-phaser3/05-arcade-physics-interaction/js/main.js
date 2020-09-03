@@ -41,9 +41,8 @@ gameScene.create = function () {
     }
 
     // tell the physics objects to resolve collisions
-    //this.physics.add.collider(this.blocks, this.duck);
 
-    this.physics.add.collider(this.duck, this.blocks, onBlockCollision, null, this);
+    this.physics.add.overlap(this.duck, this.blocks, onBlockCollision, null, this);
 };
 
 gameScene.update = function () {

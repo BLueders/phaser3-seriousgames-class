@@ -46,34 +46,7 @@ gameScene.create = function ()
     this.platforms.create(750, 220, 'ground');
 
     // The player and its settings
-    this.player = this.physics.add.sprite(100, 450, 'dude');
-
-    //  Player physics properties. Give the little guy a slight bounce.
-    this.player.setCollideWorldBounds(true);
-
-    //  Our player animations, turning, walking left and walking right.
-    this.anims.create({
-        key: 'left',
-        frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 3 }),
-        frameRate: 10,
-        repeat: -1
-    });
-
-    this.anims.create({
-        key: 'turn',
-        frames: [ { key: 'dude', frame: 4 } ],
-        frameRate: 20
-    });
-
-    this.anims.create({
-        key: 'right',
-        frames: this.anims.generateFrameNumbers('dude', { start: 5, end: 8 }),
-        frameRate: 10,
-        repeat: -1
-    });
-
-    //  Input Events
-    cursors = this.input.keyboard.createCursorKeys();
+    this.player = new Player(this, 100, 450);
 
     //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
     this.stars = [];
@@ -96,36 +69,15 @@ gameScene.create = function ()
 
 };
 
-gameScene.update = function ()
+gameScene.update = function (time, delta)
 {
     if (gameOver)
     {
         return;
     }
 
-    if (cursors.left.isDown)
-    {
-        this.player.setVelocityX(-160);
+    this.player.update(time, delta);
 
-        this.player.anims.play('left', true);
-    }
-    else if (cursors.right.isDown)
-    {
-        this.player.setVelocityX(160);
-
-        this.player.anims.play('right', true);
-    }
-    else
-    {
-        this.player.setVelocityX(0);
-
-        this.player.anims.play('turn');
-    }
-
-    if (cursors.up.isDown && this.player.body.touching.down)
-    {
-        this.player.setVelocityY(-330);
-    }
 };
 
 function collectStar (player, star)
@@ -133,7 +85,7 @@ function collectStar (player, star)
     star.disableBody(true, true);
     //  Add and update the score
     score += 10;
-    this.scoreText.setText('Score: ' + score);
+    gameScene.scoreText.setText('Score: ' + score);
 
     // check if all stars are collected
     let hasActiveStars = false;

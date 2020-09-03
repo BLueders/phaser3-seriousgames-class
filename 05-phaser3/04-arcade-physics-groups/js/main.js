@@ -39,7 +39,6 @@ gameScene.create = function () {
     }
 
     this.blocks = this.physics.add.staticGroup();
-    this.blocks.create(400, 300, 'metalblock');
 
     for (let i = 0; i < 5; i++){
         let xPos = Phaser.Math.Between(0, config.width);

@@ -47,7 +47,7 @@ gameScene.update = function () {
 
     // if (this.block.x >= 500)
     // {
-    //     this.block.setVelocityX(-100);
+         this.block.setVelocityX(-100);
     // }
     // else if (this.block.x <= 300)
     // {

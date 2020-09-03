@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db7910b3-5202-41f1-8ffe-201f615cfbd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-webdevintro/04-object-oriented-programming/my-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-webdevintro/04-object-oriented-programming/my-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/04-simple-game-engine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/04-simple-game-engine/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/04-simple-game-engine/puggo-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/04-simple-game-engine/puggo-engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/06-puggo-engine-enemies/puggo-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/06-puggo-engine-enemies/puggo-engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/09-phaser-puggo-game/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/09-phaser-puggo-game/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/00 - Starting/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/00 - Starting/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/00 - Starting/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/00 - Starting/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/00 - Starting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/01 - Hello World Phaser/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/02 - Rendering Sprites/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/03 - Scaling and Flipping/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/04 - Rotation and Update/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/05 - Player/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/06 - Enemy/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/07 - Groups/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/CourseFiles/08 - Camera Effects/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/assets/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/assets/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/assets/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/assets/treasure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/js/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/Phaserfiles/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/e01-flappy-bird/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/e01-flappy-bird/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02-javascript-and-phaser/e01-flappy-bird/js/flappy-bird.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../02-javascript-and-phaser/e01-flappy-bird/js/flappy-bird.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-finding-your-way-around-phaser/01-make-a-button/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-finding-your-way-around-phaser/01-make-a-button/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03-finding-your-way-around-phaser/02-tweens/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../03-finding-your-way-around-phaser/02-tweens/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-math-scenegraph/01-atan2/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-math-scenegraph/01-atan2/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-math-scenegraph/02-containers-rolling-eyes/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-math-scenegraph/02-containers-rolling-eyes/js/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04-math-scenegraph/04-rolling-eyes-face-fixed/js/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../04-math-scenegraph/04-rolling-eyes-face-fixed/js/game.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/flappy-bird.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/loading.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../05-phaser3/e01-breakout" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/e01-flappy-bird/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db7910b3-5202-41f1-8ffe-201f615cfbd3" name="Default Changelist" comment="" />
+      <created>1557939469576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557939469576</updated>
+      <workItem from="1557939470632" duration="724000" />
+      <workItem from="1558002570841" duration="3478000" />
+      <workItem from="1558177717711" duration="14000" />
+      <workItem from="1558697238045" duration="898000" />
+      <workItem from="1558943801502" duration="476000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5590000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/flappy-bird.js" />
+    <entry file="file://$PROJECT_DIR$/js/game-over.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c093f38b-c3da-4dec-9f1e-a2e2ebf129db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/00-phaser3-base-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/assets/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/assets/images/rubber_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/bootscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/homescene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/loadingscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00-phaser3-base-project/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-arcade-physics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-arcade-physics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-arcade-physics/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../01-arcade-physics/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-arcade-physics-statics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-arcade-physics-statics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-arcade-physics-statics/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../03-arcade-physics-statics/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-arcade-physics-groups/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-arcade-physics-groups/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-arcade-physics-groups/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04-arcade-physics-groups/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-arcade-physics-interaction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-arcade-physics-interaction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-arcade-physics-interaction/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../05-arcade-physics-interaction/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-simple-platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../06-simple-platformer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-simple-platformer/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../06-simple-platformer/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-simple-platformer-player-class/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/00-phaser3-base-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/assets/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/assets/images/rubber_duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/bootscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/homescene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/loadingscene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10-loading-scene/js/phaser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-loading-scene/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08-loading-scene/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e01-breakout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../e01-breakout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../e01-breakout/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../e01-breakout/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,23 +42,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="09-phaser3-complete-base" type="b2602c69:ProjectViewProjectNode" />
-              <item name="09-phaser3-complete-base" type="462c0819:PsiDirectoryNode" />
+              <item name="10-phaser3-complete-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-phaser3-complete-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="10-phaser3-complete-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-phaser3-complete-base" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="10-phaser3-complete-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-phaser3-complete-base" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="10-phaser3-complete-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-phaser3-complete-base" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../08-loading-scene" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xx-matter-physics/01-matter-physics" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -86,12 +91,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/10-phaser3-complete-base/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/09-phaser3-complete-base/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -107,22 +116,19 @@
       <option name="presentableId" value="Default" />
       <updated>1558881074724</updated>
       <workItem from="1558881075775" duration="23000" />
+      <workItem from="1558956274668" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23000" />
+    <option name="totallyTimeSpent" value="139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -130,6 +136,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />

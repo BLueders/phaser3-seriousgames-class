@@ -11,11 +11,11 @@ class Ball extends Phaser.Physics.Arcade.Sprite {
     }
 
     update(time, delta){
-        if(this.body.velocity.y < 0){
-            this.setVelocityY(-300);
-        }
-        else {
-            this.setVelocityY(300);
-        }
+        // if(this.body.velocity.y < 0){
+        //     this.setVelocityY(-300);
+        // }
+        // else {
+        //     this.setVelocityY(300);
+        // }
     }
 }
