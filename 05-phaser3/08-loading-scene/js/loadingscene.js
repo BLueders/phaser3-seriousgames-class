@@ -55,5 +55,3 @@ loadingScene.create = function() {
     console.log("executing create() of Loading scene");
     this.scene.start('Game');
 };
-
-
