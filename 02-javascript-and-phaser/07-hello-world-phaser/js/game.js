@@ -12,5 +12,15 @@ let config = {
 // create a new game, pass the configuration
 let game = new Phaser.Game(config);
 
+gameScene.preload = function(){
+     this.load.image('puggo', 'assets/puggo.jpg');
+}
 
+gameScene.create = function () {
+    this.add.sprite(20,20,'puggo');
+    this.add.sprite(50,50,'puggo');
+}
 
+gameScene.update = function(){
+
+}

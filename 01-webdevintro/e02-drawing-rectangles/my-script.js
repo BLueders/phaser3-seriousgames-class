@@ -27,6 +27,7 @@ Rectangle = class {
 				result += this.innerCharacter;
 			}
 		}
+        console.log(result);
 	}
 };
 

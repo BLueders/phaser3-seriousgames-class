@@ -17,7 +17,9 @@ gameScene.create = function() {
   // create the player
   this.player = this.add.sprite(100, 150, 'puggo');
   this.player.setScale(0.5);
+
   this.enemy = this.add.sprite(550, 200, 'falco');
+
   this.cursorKeys = this.input.keyboard.createCursorKeys();
 };
 

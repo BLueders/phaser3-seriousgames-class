@@ -1,77 +1,84 @@
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
+
 let width = canvas.width;
 let height = canvas.height;
 
-//game variables
-let fps = 30;
-let imageLoaded = false;
-let puggoPosX = 20;
-let puggoPosY = 20;
-let puggoSpeed = 4;
+window.addEventListener('keydown', keydownFunction);
 
-//Loading of the image
-let puggo = new Image();
-puggo.src = 'puggo.jpg';
+function keydownFunction(event){
+    if(event.key == "ArrowDown"){
+        hero.y += hero.speed;
+    }
+    if(event.key == "ArrowUp"){
+        hero.y -= hero.speed;
+    }
+    if(event.key == "ArrowLeft"){
+        hero.x -= hero.speed;
+    }
+    if(event.key == "ArrowRight"){
+        hero.x += hero.speed;
+    }
+}
 
-puggo.onload = function () {
-    imageLoaded = true;
-};
+var hero = {};
+hero.image = new Image();
+hero.image.src = 'puggo.jpg';
+hero.x = 100;
+hero.y = 100;
+hero.speed = 10;
 
-puggo.onerror = function () {
-    //draw red box on error
-    ctx.fillStyle = "#FF0000";
-    ctx.fillRect(0, 0, width, height);
-};
+hero.draw = function(){
+    if(this.imageLoaded){
+        ctx.drawImage(this.image, this.x, this.y);
+    }
+}
 
-setInterval(gameLoop, 1000 / fps);
+hero.image.onload = function () {
+    hero.imageLoaded = true;
+}
+
+hero.image.onerror = function () {
+    console.error ("image could not be loaded");
+}
+
+var enemy = {};
+enemy.image = new Image();
+enemy.image.src = 'falco.jpg';
+enemy.x = 500;
+enemy.y = 400;
+enemy.speed = 10;
+
+enemy.draw = function(){
+    if(this.imageLoaded){
+        ctx.drawImage(this.image, this.x, this.y);
+    }
+}
+
+enemy.image.onload = function () {
+    enemy.imageLoaded = true;
+}
+
+enemy.image.onerror = function () {
+    console.error ("image could not be loaded");
+}
+
 function gameLoop() {
     update();
     draw();
+    window.requestAnimationFrame(gameLoop);
 }
 
-function update() {
-    if (keyMap.ArrowLeft) {
-        puggoPosX -= puggoSpeed;
-    }
-    if (keyMap.ArrowRight) {
-        puggoPosX += puggoSpeed;
-    }
-    if (keyMap.ArrowUp) {
-        puggoPosY -= puggoSpeed;
-    }
-    if (keyMap.ArrowDown) {
-        puggoPosY += puggoSpeed;
-    }
+function update(){
+
 }
 
 function draw() {
     // draw background
     ctx.fillStyle = "#339933";
     ctx.fillRect(0, 0, width, height);
-
-    if(imageLoaded){
-        ctx.drawImage(puggo, puggoPosX, puggoPosY);
-    }
+    hero.draw();
+    enemy.draw();
 }
 
-// process input
-let keyMap = {
-    ArrowLeft: false,
-    ArrowRight: false,
-    ArrowUp: false,
-    ArrowDown: false
-};
-
-window.addEventListener("keydown", keydown, false);
-window.addEventListener("keyup", keyup, false);
-
-function keydown(event) {
-    keyMap[event.key] = true;
-}
-
-function keyup(event) {
-    keyMap[event.key] = false;
-}
-
-
+gameLoop();

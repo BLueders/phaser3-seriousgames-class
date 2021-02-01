@@ -14,11 +14,6 @@ gameScene.create = function() {
 
   let gameW = this.sys.game.config.width;
   let gameH = this.sys.game.config.height;
-
-  console.log(gameW, gameH);
-
-  console.log(bg);
-  console.log(this);
 };
 
 // set the configuration of the game

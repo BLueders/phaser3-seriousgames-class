@@ -32,66 +32,82 @@ gameScene.create = function () {
     this.coin.x = config.width/2;
     this.coin.y = config.height/2;
 
-    makeInteractive(this.coin);
+    // add tweens
+    this.coin.onClickTween = gameScene.tweens.add({
+        targets: gameScene.coin,
+        scaleX: 1.4,
+        scaleY: 1.4,
+        duration: 200,
+        yoyo: true,
+        ease: 'Quad.easeIn',
+        onStart: function(){
+            gameScene.coin.setScale(1.2, 1.2);
+        }
+    });
+    this.coin.onClickTween.stop();
 
+    this.coin.hoverTweenIn = gameScene.tweens.add({
+        targets: gameScene.coin,
+        scaleX: 1.2,
+        scaleY: 1.2,
+        duration: 200,
+        onStart: function(){
+            gameScene.coin.setScale(1, 1);
+        }
+    });
+    this.coin.hoverTweenIn.stop();
+
+    this.coin.hoverTweenOut = gameScene.tweens.add({
+        targets: gameScene.coin,
+        scaleX: 1,
+        scaleY: 1,
+        duration: 200,
+        onStart: function(){
+            gameScene.coin.setScale(1.2, 1.2);
+        }
+    });
+    this.coin.hoverTweenOut.stop();
+
+    this.coin.setInteractive();
+
+    this.coin.on('pointerdown', function(pointer){
+        gameScene.plingSound.play();
+        gameScene.coin.hoverTweenOut.stop(0);
+        gameScene.coin.hoverTweenIn.stop(0);
+        gameScene.coin.onClickTween.restart();
+    });
+
+    this.coin.on('pointerover', function(pointer){
+        gameScene.coin.hoverTweenOut.stop(0);
+        gameScene.coin.onClickTween.stop(0);
+        gameScene.coin.hoverTweenIn.restart();
+        console.log("pointerout");
+    });
+
+    this.coin.on('pointerout', function(pointer){
+        gameScene.coin.onClickTween.stop(0);
+        gameScene.coin.hoverTweenIn.stop(0);
+        gameScene.coin.hoverTweenOut.restart();
+        console.log("pointerover");
+    });
 };
 
 // this is called up to 60 times per second
 gameScene.update = function (time, delta) {
+
 };
 
-function makeInteractive(item){
-    item.setInteractive();
-    item.on('pointerdown', function(pointer){
-
-        gameScene.plingSound.play();
-        resetItemState(item);
-        item.onClickTween = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1.4,
-            scaleY: 1.4,
-            duration: 200,
-            yoyo: true,
-            ease: 'Quad.easeIn',
-            onStart: function(){
-                item.setScale(1.2, 1.2);
-            }
-        });
+function makeTweens(item){
+    item.onClickTween = gameScene.tweens.add({
+        targets: item,
+        scaleX: 1.4,
+        scaleY: 1.4,
+        duration: 200,
+        yoyo: true,
+        ease: 'Quad.easeIn',
+        onStart: function(){
+            item.setScale(1.2, 1.2);
+        }
     });
-    item.on('pointerover', function(pointer){
-        resetItemState(item);
-        item.hoverTweenIn = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1.2,
-            scaleY: 1.2,
-            alpha: 1,
-            duration: 200,
-        });
-    });
-    item.on('pointerout', function(pointer){
-        resetItemState(item);
-        item.hoverTweenOut = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1,
-            scaleY: 1,
-            alpha: 1,
-            duration: 200,
-            onUpdate: function() {
-            }
-        });
-    });
+    item.onClickTween.stop();
 }
-
-function resetItemState(item){
-    if(item.hoverTweenOut){
-        item.hoverTweenOut.remove();
-    }
-    if(item.onClickTween){
-        item.onClickTween.remove();
-    }
-    if(item.hoverTweenIn){
-        item.hoverTweenIn.remove();
-    }
-}
-
-

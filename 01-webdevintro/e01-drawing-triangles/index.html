@@ -6,6 +6,27 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="my-script.js"></script>
+        <script>
+            function drawLine(length){
+                var line = "";
+                for (var i = 0; i < length; i++){
+                    line += "*";
+                }
+                console.log(line);
+            }
+
+            function drawTriangle(length){
+                for(var i = 0; i < length; i++){
+                    drawLine(i);
+                }
+                for(var i = length; i > 0; i--){
+                    drawLine(i);
+                }
+            }
+
+            drawTriangle(8);
+            drawTriangle(3);
+
+        </script>
     </body>
 </html>

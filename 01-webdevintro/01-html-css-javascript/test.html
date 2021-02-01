@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>My first html file</title>
+    </head>
+    <body>
+        <script>
+
+            class Person{
+                constructor(name, occupation){
+                    this.name = name;
+                    this.occupation = occupation;
+                }
+
+                printName(){
+                    console.log(this.name);
+                }
+            }
+
+            var personObject = new Person("Benno", "Teacher");
+
+
+
+            personObject.printName();
+
+        </script>
+    </body>
+</html>

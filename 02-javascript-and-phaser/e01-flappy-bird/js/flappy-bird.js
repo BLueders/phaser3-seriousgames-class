@@ -102,4 +102,3 @@ function restart(){
 
 // create a new game, pass the configuration
 let game = new Phaser.Game(config);
-

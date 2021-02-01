@@ -28,23 +28,18 @@ gameScene.create = function () {
     // create and position background
     this.cameras.main.setBackgroundColor("#000000");
     this.coin = this.add.sprite(0, 0, 'coin');
-    this.plingSound = this.sound.add('pling');
     this.coin.x = config.width/2;
     this.coin.y = config.height/2;
 
-    makeInteractive(this.coin);
+    this.plingSound = this.sound.add('pling');
+    
+    item.setInteractive();
+    item.on('pointerdown', function(pointer){
+        gameScene.plingSound.play();
+    });
 };
 
 // this is called up to 60 times per second
 gameScene.update = function (time, delta) {
 
 };
-
-function makeInteractive(item){
-    item.setInteractive();
-    item.on('pointerdown', function(pointer){
-        gameScene.plingSound.play();
-    });
-}
-
-

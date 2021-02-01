@@ -90,55 +90,58 @@ gameScene.update = function (time, delta) {
 
 function makeInteractive(item, onClickCallback){
     item.setInteractive();
+    item.onClickTween = gameScene.tweens.add({
+        targets: item,
+        scaleX: 1.4,
+        scaleY: 1.4,
+        duration: 50,
+        yoyo: true,
+        ease: 'Quad.easeIn',
+        onStart: function(){
+            item.setScale(1.2, 1.2);
+        }
+    });
+    item.onClickTween.stop();
+
+    item.hoverTweenIn = gameScene.tweens.add({
+        targets: item,
+        scaleX: 1.2,
+        scaleY: 1.2,
+        duration: 200,
+        onStart: function(){
+            item.setScale(1, 1);
+        }
+    });
+    item.hoverTweenIn.stop();
+
+    item.hoverTweenOut = gameScene.tweens.add({
+        targets: item,
+        scaleX: 1,
+        scaleY: 1,
+        duration: 200,
+        onStart: function(){
+            item.setScale(1.2, 1.2);
+        }
+    });
+    item.hoverTweenOut.stop();
+
     item.on('pointerdown', function(pointer){
         onClickCallback();
         resetItemState(item);
-        item.onClickTween = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1.4,
-            scaleY: 1.4,
-            duration: 200,
-            yoyo: true,
-            ease: 'Quad.easeIn',
-            onStart: function(){
-                item.setScale(1.2, 1.2);
-            }
-        });
+        item.onClickTween.restart();
     });
     item.on('pointerover', function(pointer){
         resetItemState(item);
-        item.hoverTweenIn = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1.2,
-            scaleY: 1.2,
-            alpha: 1,
-            duration: 200,
-        });
+        item.hoverTweenIn.restart();
     });
     item.on('pointerout', function(pointer){
         resetItemState(item);
-        item.hoverTweenOut = gameScene.tweens.add({
-            targets: item,
-            scaleX: 1,
-            scaleY: 1,
-            alpha: 1,
-            duration: 200,
-            onUpdate: function() {
-            }
-        });
+        item.hoverTweenOut.restart();
     });
 }
 
 function resetItemState(item){
-    if(item.hoverTweenOut){
-        item.hoverTweenOut.remove();
-    }
-    if(item.onClickTween){
-        item.onClickTween.remove();
-    }
-    if(item.hoverTweenIn){
-        item.hoverTweenIn.remove();
-    }
+    item.hoverTweenOut.stop();
+    item.onClickTween.stop();
+    item.hoverTweenIn.stop();
 }
-
-
