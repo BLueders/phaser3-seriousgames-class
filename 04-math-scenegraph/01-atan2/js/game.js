@@ -14,7 +14,6 @@ let game = new Phaser.Game(config);
 
 // initiate scene parameters
 gameScene.init = function () {
-
 };
 
 // load assets
@@ -31,7 +30,11 @@ gameScene.create = function () {
 
 // this is called up to 60 times per second
 gameScene.update = function (time, delta) {
-    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x, game.input.mousePointer.y);
+    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x,
+                                           game.input.mousePointer.y);
+
     let mouseDir = mousePos.subtract(this.chicken.getCenter());
-    this.chicken.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y, mouseDir.x));
+
+    this.chicken.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y,
+                                                         mouseDir.x));
 };

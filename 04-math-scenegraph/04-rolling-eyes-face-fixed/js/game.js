@@ -52,19 +52,24 @@ gameScene.create = function () {
 
 // this is called up to 60 times per second
 gameScene.update = function (time, delta) {
-    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x, game.input.mousePointer.y);
+    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x,
+                                           game.input.mousePointer.y);
     // transform mousePos to local space of smiley object
-    this.smiley.getWorldTransformMatrix().invert().transformPoint(mousePos.x, mousePos.y, mousePos);
+    this.smiley.getWorldTransformMatrix().invert().transformPoint(mousePos.x,
+                                                                  mousePos.y,
+                                                                  mousePos);
 
     // copy object values of dir for later use when calculating directions
     let mouseDirRight = mousePos.clone();
     let mouseDirLeft = mousePos.clone();
 
     // smiley rotation from local eye position to local coordinates of mouse position
-    mouseDirLeft.subtract(new Phaser.Math.Vector2(this.smiley.leftEye.x, this.smiley.leftEye.y));
-    this.smiley.leftEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDirLeft.y, mouseDirLeft.x));
+    mouseDirLeft.subtract(new Phaser.Math.Vector2(this.smiley.leftEye.x,
+                                                  this.smiley.leftEye.y));
+    this.smiley.leftEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDirLeft.y,
+                                                                mouseDirLeft.x));
 
-    mouseDirRight.subtract(new Phaser.Math.Vector2(this.smiley.rightEye.x, this.smiley.rightEye.y));
+    mouseDirRight.subtract(new Phaser.Math.Vector2(this.smiley.rightEye.x,
+                                                   this.smiley.rightEye.y));
     this.smiley.rightEye.angle = Phaser.Math.RadToDeg(mouseDirRight.angle()); // does the same as atan2
 };
-

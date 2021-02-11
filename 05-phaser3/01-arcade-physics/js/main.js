@@ -30,7 +30,7 @@ gameScene.create = function () {
     duck2.setCollideWorldBounds(true);
     duck2.setBounce(1,1);
 
-    this.physics.add.collider(duck, duck2);
+    //this.physics.add.collider(duck, duck2);
 };
 
 gameScene.update = function () {

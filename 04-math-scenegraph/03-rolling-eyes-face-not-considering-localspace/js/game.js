@@ -43,14 +43,18 @@ gameScene.create = function () {
 
 // this is called up to 60 times per second
 gameScene.update = function (time, delta) {
-    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x, game.input.mousePointer.y);
+    let mousePos = new Phaser.Math.Vector2(game.input.mousePointer.x,
+                                           game.input.mousePointer.y);
     let mouseDir;
 
     // eyes will use local space coordinates, resulting in error when displaying rotation
-    mouseDir = mousePos.subtract(new Phaser.Math.Vector2(this.smiley.leftEye.x, this.smiley.leftEye.y));
-    this.smiley.leftEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y, mouseDir.x));
+    mouseDir = mousePos.subtract(new Phaser.Math.Vector2(this.smiley.leftEye.x,
+                                                         this.smiley.leftEye.y));
+    this.smiley.leftEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y,
+                                                                mouseDir.x));
 
-    mouseDir = mousePos.subtract(new Phaser.Math.Vector2(this.smiley.rightEye.x, this.smiley.rightEye.y));
-    this.smiley.rightEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y, mouseDir.x));
+    mouseDir = mousePos.subtract(new Phaser.Math.Vector2(this.smiley.rightEye.x,
+                                                         this.smiley.rightEye.y));
+    this.smiley.rightEye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y,
+                                                                 mouseDir.x));
 };
-

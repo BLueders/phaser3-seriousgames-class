@@ -78,6 +78,7 @@ gameScene.update = function (time, delta) {
 
     // enemy overlap check
     let playerRect = this.player.getBounds();
+
     for (let i = 0; i < this.enemies.length; i++) {
         let enemyRect = this.enemies[i].getBounds();
         if (Phaser.Geom.Intersects.RectangleToRectangle(playerRect, enemyRect)) {
