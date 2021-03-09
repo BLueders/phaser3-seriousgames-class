@@ -1,55 +1,50 @@
-let gameScene = new Phaser.Scene('Game');
-let winScene = new Phaser.Scene('Win');
+var gameScene = new Phaser.Scene('Game');
 
-let config = {
+var config = {
     type: Phaser.AUTO, // Phaser will use WebGL if available, if not it will use Canvas
-    width: 400,
-    height: 400,
-    scene: [gameScene, winScene],
-    physics: {
-        default: "arcade",
-        arcade: {
-            debug: true,
-            gravity: {y: 200}
-        }
-    }
+    width: 800,
+    height: 600,
+    scene: gameScene
 };
-let game = new Phaser.Game(config);
+
+var game = new Phaser.Game(config);
 
 gameScene.preload = function () {
     this.load.image('duck', 'assets/rubber_duck.png');
     this.load.image('coin', 'assets/coin-20dkk.png');
 };
 
-gameScene.init = function () {
-
-};
-
 gameScene.create = function () {
-    this.cameras.main.setBackgroundColor("#000000");
+    this.duck = this.add.sprite(200,100,'duck');
+    this.duck.setScale(2,2);
 
-    this.player = new Player(this, 100, 100);
+    this.cursorKeys = this.input.keyboard.createCursorKeys();
 
-    this.coin = this.physics.add.sprite(200,200, 'coin');
-    this.coin.setImmovable(true);
-    this.coin.body.allowGravity = false;
-    this.coin.winsGame = true;
+    this.evilDuck = this.add.sprite(600,500,'duck');
 
-    this.physics.add.overlap(this.player, this.coin, winGame);
+    this.evilDuck.tint = 0xff0000; // rrggbb
+
 };
 
-function winGame(objectA, objectB){
-    if(objectA.winsGame || objectB.winsGame){
-        //gameScene.scene.start('Win');
-        gameScene.scene.launch('Win');
+gameScene.update = function () {
+    if(this.cursorKeys.up.isDown){
+        this.duck.y -= 1;
     }
-}
+    if(this.cursorKeys.down.isDown){
+        this.duck.y += 1;
+    }
+    if(this.cursorKeys.right.isDown){
+        this.duck.x += 1;
+    }
+    if(this.cursorKeys.left.isDown){
+        this.duck.x -= 1;
+    }
 
-gameScene.update = function (time, delta) {
-    this.player.update();
+    let duckRect = this.duck.getBounds();
+    let evilDuckRect = this.evilDuck.getBounds();
+
+    if(Phaser.Geom.Intersects.RectangleToRectangle(duckRect, evilDuckRect)){
+        this.duck.destroy();
+    }
+
 };
-
-// Win Scene
-winScene.create = function (){
-    this.add.text(100,100,"YOU WIN!");
-}

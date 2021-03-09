@@ -1,3 +1,4 @@
+// Movement class to enclapsulate all of the movement variables for easy access.
 PlayerMovement = class {
     horizontalSpeed;
     verticalSpeed;
@@ -5,10 +6,10 @@ PlayerMovement = class {
     gravity;
 
     constructor() {
-        this.horizontalSpeed = 2;
+        this.horizontalSpeed = 100;
         this.verticalSpeed = 0;
-        this.flapSpeed = 4;
-        this.gravity = 10;
+        this.flapSpeed = 400;
+        this.gravity = 800;
     }
 
     flap() {
@@ -25,11 +26,6 @@ let config = {
     width: 800,
     height: 480,
     scene: gameScene
-};
-
-// initiate scene parameters
-gameScene.init = function () {
-
 };
 
 // load assets
@@ -73,8 +69,8 @@ gameScene.update = function (time, delta) {
     }
     this.player.movement.verticalSpeed += this.player.movement.gravity * delta/1000.0;
 
-    this.player.x += this.player.movement.horizontalSpeed;
-    this.player.y += this.player.movement.verticalSpeed;
+    this.player.x += this.player.movement.horizontalSpeed * delta/1000;
+    this.player.y += this.player.movement.verticalSpeed * delta/1000;
 
     // enemy overlap check
     let playerRect = this.player.getBounds();

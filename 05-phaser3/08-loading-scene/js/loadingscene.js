@@ -46,7 +46,7 @@ loadingScene.preload = function() {
 
     // TO TEST: load lots of assets to have a chance to see loading screen
     // REMOVE
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 10000; i++) {
         this.load.image('test' + i, 'assets/images/rubber_duck.png');
     }
 };
