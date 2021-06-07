@@ -27,16 +27,23 @@ gameScene.preload = function () {
 
 gameScene.create = function () {
     this.duck = this.matter.add.sprite(400, 100, 'duck');
+    this.duck.setBody({type:"circle", radius:20});
 
-    this.duck.setBounce(1, 1);
+    this.duck.setBounce(1);
+    this.duck.setFrictionAir(0);
+    this.duck.setFriction(0);
     this.matter.world.setBounds();
+
+    //var bottomWall = this.matter.bodies.rectangle(400, 400, 810, 30, { isStatic: true });
+    var bottomWall = this.matter.bodies.rectangle(400, 400, 500, 30, { ignoreGravity: true });
+    bottomWall.restitution = 1;
+    bottomWall.friction = 0;
+    this.matter.body.setAngularVelocity(bottomWall, 0.01);
+    this.matter.world.add(bottomWall);
+
 
 };
 
 gameScene.update = function () {
     this.duck.flipX = this.duck.body.velocity.x > 0;
 };
-
-
-
-

@@ -40,6 +40,7 @@ gameScene.create = function () {
 
     // tell the physics objects to resolve collisions
     this.physics.add.collider(this.block, this.duck);
+    this.block.setVelocityX(-100);
 };
 
 gameScene.update = function () {
@@ -47,7 +48,6 @@ gameScene.update = function () {
 
     // if (this.block.x >= 500)
     // {
-         this.block.setVelocityX(-100);
     // }
     // else if (this.block.x <= 300)
     // {
@@ -55,7 +55,3 @@ gameScene.update = function () {
     // }
 
 };
-
-
-
-

@@ -27,7 +27,6 @@ let game = new Phaser.Game(config);
 gameScene.init = function() {
     console.log("executing init() of game scene");
 };
-
 // ass all objects active from the start in the game in create
 gameScene.create = function() {
     console.log("executing create() of game scene");
@@ -52,6 +51,7 @@ gameScene.create = function() {
         font: '40px Arial',
         fill: '#ffffff'
     });
+
     text.setOrigin(0.5, 0.5);
     text.depth = 10;
 
@@ -60,10 +60,4 @@ gameScene.create = function() {
         this.gameData.playerPosY = this.player.y;
         this.scene.start("Loading");
     });
-
 };
-
-
-
-
-

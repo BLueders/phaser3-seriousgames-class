@@ -27,9 +27,11 @@ gameScene.preload = function () {
 gameScene.create = function () {
 
     this.eye = this.add.container(400, 240);
+    this.eye.setScale(2,1)
     this.eye.eyeball = this.add.sprite(0, 0, 'eyeball');
+    this.eye.eyeball.setScale(2,1);
     this.eye.pupil = this.add.sprite(25, 0, 'pupil');
-        this.eye.add([this.eye.eyeball, this.eye.pupil]);
+    this.eye.add([this.eye.eyeball, this.eye.pupil]);
 };
 
 // this is called up to 60 times per second
@@ -38,4 +40,3 @@ gameScene.update = function (time, delta) {
     let mouseDir = mousePos.subtract(new Phaser.Math.Vector2(this.eye.x, this.eye.y));
     this.eye.angle = Phaser.Math.RadToDeg(Math.atan2(mouseDir.y, mouseDir.x));
 };
-
